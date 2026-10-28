@@ -2,9 +2,9 @@
 
 Early-warning and mitigation decision support for supply chains. Requires Java 17+, no external libraries.
 
-## Layout (one concept per file, one owner per file)
+## Layout 
 
-| File | Concept | Suggested owner |
+| File | Concept | Done by |
 |------|---------|-----------------|
 | `src/supplychain/MultilayerGraph.java` | Graph model: layers, nodes, edges, time lags and validity windows | Person 1 |
 | `src/supplychain/AnomalyDetector.java` | EWMA z-score anomaly detection -> disruption seeds | Person 2 |
