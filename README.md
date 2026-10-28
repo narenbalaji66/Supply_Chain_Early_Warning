@@ -10,7 +10,7 @@ Early-warning and mitigation decision support for supply chains. Requires Java 1
 | `src/supplychain/AnomalyDetector.java` | EWMA z-score anomaly detection -> disruption seeds | Person 2 |
 | `src/supplychain/CascadeSimulator.java` | Monte-Carlo cascade simulation + early-warning output | Person 3 |
 | `src/supplychain/MitigationPlanner.java` | Candidate actions, ranking, greedy budgeted plan | Person 4 |
-| `src/supplychain/SupplyChainEarlyWarning.java` | Main: demo data, console input, pipeline wiring | Person 5 |
+| `src/supplychain/SupplyChainEarlyWarning.java` | Main: demo data, console input, pipeline wiring | All |
 
 Dependencies flow one way: `MultilayerGraph` <- `AnomalyDetector`, `CascadeSimulator` <- `MitigationPlanner` <- `Main`.
 
